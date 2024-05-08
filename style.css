@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+li {
+    background-color: green;
+}
+
+li:hover {
+    background-color: red;
+    scale: 1.05;
+}
+
+li:active {
+    background-color: violet;
+    /* scale: 1.05; */
+}
+
+#input_demo::after{
+    content: "@";
+    padding: 2px;
+    background-color: aquamarine;
+}
+
+/*#lorem_1 {
+    background-color: green;
+}
+
+#lorem_1:hover {
+    background-color: red;
+} */
+
+#ejemplo_pos {
+    margin-top: 30px;
+}
+
+#Contenedor_relative {
+    border: 3px solid red;
+    margin: 5px;
+}
+
+#Contenedor_absolute {
+    border: 3px solid blue;
+    margin: 5px;
+}
+
+#Contenedor_fixed {
+    border: 3px solid green;
+    margin: 5px;
+}
