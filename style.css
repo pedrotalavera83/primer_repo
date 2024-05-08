@@ -36,19 +36,39 @@ li:active {
 
 #ejemplo_pos {
     margin-top: 30px;
+    margin: 10px;
+    border: 5px solid black;
 }
 
 #Contenedor_relative {
     border: 3px solid red;
     margin: 5px;
+    padding: 20px;
+}
+
+.elemento-relative {
+    position: relative;
+    background-color: violet;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    left: 50px;
+}
+
+.elemento-static {
+    background-color: orange;
+    margin-bottom: 10px;
 }
 
 #Contenedor_absolute {
     border: 3px solid blue;
     margin: 5px;
+    padding: 20px;
+    /* position: absolute; */
 }
 
 #Contenedor_fixed {
     border: 3px solid green;
     margin: 5px;
+    padding: 20px;
 }
